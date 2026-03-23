@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brand - Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+     <div id="header-placeholder"></div>
+
+    <main class="container">
+        <h2 class="page-title">My cart (3)</h2>
+
+        <div class="cart-layout">
+            
+            <div class="cart-main">
+                <div class="cart-items-card">
+                    
+                    <div class="cart-item">
+                        <div class="item-img">
+                            <img src="assets\Layout\alibaba\Image\cloth\Bitmap.png" alt="T-shirt">
+                        </div>
+                        <div class="item-details">
+                            <h3>T-shirts with multiple colors, for men and lady</h3>
+                            <p class="item-specs">Size: medium, Color: blue, Material: Plastic</p>
+                            <p class="item-seller">Seller: Artel Market</p>
+                            <div class="item-actions">
+                                <button class="btn-text text-danger">Remove</button>
+                                <button class="btn-text text-primary">Save for later</button>
+                            </div>
+                        </div>
+                        <div class="item-price-qty">
+                            <div class="price">$78.99</div>
+                            <select class="qty-select">
+                                <option>Qty: 9</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="cart-item">
+                        <div class="item-img">
+                            <img src="assets\Layout\alibaba\Image\cloth\image 26.png" alt="Bag">
+                        </div>
+                        <div class="item-details">
+                            <h3>T-shirts with multiple colors, for men and lady</h3>
+                            <p class="item-specs">Size: medium, Color: blue, Material: Plastic</p>
+                            <p class="item-seller">Seller: Best factory LLC</p>
+                            <div class="item-actions">
+                                <button class="btn-text text-danger">Remove</button>
+                                <button class="btn-text text-primary">Save for later</button>
+                            </div>
+                        </div>
+                        <div class="item-price-qty">
+                            <div class="price">$39.00</div>
+                            <select class="qty-select">
+                                <option>Qty: 3</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="cart-item">
+                        <div class="item-img">
+                            <img src="assets\Layout\alibaba\Image\cloth\image 26.png" alt="Bag">
+                        </div>
+                        <div class="item-details">
+                            <h3>T-shirts with multiple colors, for men and lady</h3>
+                            <p class="item-specs">Size: medium, Color: blue, Material: Plastic</p>
+                            <p class="item-seller">Seller: Artel Market</p>
+                            <div class="item-actions">
+                                <button class="btn-text text-danger">Remove</button>
+                                <button class="btn-text text-primary">Save for later</button>
+                            </div>
+                        </div>
+                        <div class="item-price-qty">
+                            <div class="price">$170.50</div>
+                            <select class="qty-select">
+                                <option>Qty: 1</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="cart-bottom-actions">
+                        <button class="btn btn-primary"><i class="fa-solid fa-arrow-left"></i> Back to shop</button>
+                        <button class="btn btn-white text-primary" style="font-weight: 500;">Remove all</button>
+                    </div>
+                </div>
+
+                <div class="trust-badges">
+                    <div class="badge-item">
+                        <div class="badge-icon"><i class="fa-solid fa-lock"></i></div>
+                        <div class="badge-text">
+                            <h4>Secure payment</h4>
+                            <p>Have you ever finally just</p>
+                        </div>
+                    </div>
+                    <div class="badge-item">
+                        <div class="badge-icon"><i class="fa-solid fa-message"></i></div>
+                        <div class="badge-text">
+                            <h4>Customer support</h4>
+                            <p>Have you ever finally just</p>
+                        </div>
+                    </div>
+                    <div class="badge-item">
+                        <div class="badge-icon"><i class="fa-solid fa-truck"></i></div>
+                        <div class="badge-text">
+                            <h4>Free delivery</h4>
+                            <p>Have you ever finally just</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <aside class="cart-sidebar">
+                
+                <div class="summary-card">
+                    <p style="margin-bottom: 10px; font-size: 15px; color: #505050;">Have a coupon?</p>
+                    <div class="coupon-input">
+                        <input type="text" placeholder="Add coupon">
+                        <button class="btn btn-white text-primary" style="border-left: none; border-radius: 0 6px 6px 0;">Apply</button>
+                    </div>
+                </div>
+
+                <div class="summary-card">
+                    <div class="summary-row">
+                        <span>Subtotal:</span>
+                        <strong>$1403.97</strong>
+                    </div>
+                    <div class="summary-row">
+                        <span>Discount:</span>
+                        <strong class="text-danger">- $60.00</strong>
+                    </div>
+                    <div class="summary-row">
+                        <span>Tax:</span>
+                        <strong class="text-success">+ $14.00</strong>
+                    </div>
+                    
+                    <div class="summary-divider"></div>
+                    
+                    <div class="summary-row total-row">
+                        <span>Total:</span>
+                        <strong>$1357.97</strong>
+                    </div>
+                    
+                    <button class="btn btn-success full-width" style="font-size: 16px; padding: 15px; margin-top: 20px;">Checkout</button>
+                    
+                    <div class="payment-methods">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/American_Express_logo_%282018%29.svg/1200px-American_Express_logo_%282018%29.svg.png" alt="Amex">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Mastercard_2019_logo.svg/1200px-Mastercard_2019_logo.svg.png" alt="Mastercard">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/PayPal.svg/2560px-PayPal.svg.png" alt="PayPal">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/2560px-Visa_Inc._logo.svg.png" alt="Visa">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Apple_Pay_logo.svg/2560px-Apple_Pay_logo.svg.png" alt="Apple Pay">
+                    </div>
+                </div>
+
+            </aside>
+        </div>
+
+        <section class="saved-for-later-section">
+            <h3 class="section-title">Saved for later</h3>
+            <div class="saved-grid">
+                <div class="saved-card">
+                    <div class="saved-img"><img src="assets\Image\tech\6.png" alt="item"></div>
+                    <div class="saved-info">
+                        <span class="price">$99.50</span>
+                        <p>GoPro HERO6 4K Action Camera - Black</p>
+                        <button class="btn btn-white text-primary full-width" style="margin-top: 15px;">
+                            <i class="fa-solid fa-cart-shopping"></i> Move to cart
+                        </button>
+                    </div>
+                </div>
+                <div class="saved-card">
+                    <div class="saved-img"><img src="assets\Image\tech\6.png" alt="item"></div>
+                    <div class="saved-info">
+                        <span class="price">$99.50</span>
+                        <p>GoPro HERO6 4K Action Camera - Black</p>
+                        <button class="btn btn-white text-primary full-width" style="margin-top: 15px;">
+                            <i class="fa-solid fa-cart-shopping"></i> Move to cart
+                        </button>
+                    </div>
+                </div>
+                <div class="saved-card">
+                    <div class="saved-img"><img src="assets\Image\tech\6.png" alt="item"></div>
+                    <div class="saved-info">
+                        <span class="price">$99.50</span>
+                        <p>GoPro HERO6 4K Action Camera - Black</p>
+                        <button class="btn btn-white text-primary full-width" style="margin-top: 15px;">
+                            <i class="fa-solid fa-cart-shopping"></i> Move to cart
+                        </button>
+                    </div>
+                </div>
+                <div class="saved-card">
+                    <div class="saved-img"><img src="assets\Image\tech\6.png" alt="item"></div>
+                    <div class="saved-info">
+                        <span class="price">$99.50</span>
+                        <p>GoPro HERO6 4K Action Camera - Black</p>
+                        <button class="btn btn-white text-primary full-width" style="margin-top: 15px;">
+                            <i class="fa-solid fa-cart-shopping"></i> Move to cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="discount-banner">
+            <div class="banner-text">
+                <h2>Super discount on more than 100 USD</h2>
+                <p>Have you ever finally just write dummy info</p>
+            </div>
+            <button class="btn btn-orange">Shop now</button>
+        </section>
+
+    </main>
+
+       <div id="footer-placeholder"></div>
+    <script src="components.js"></script>
+
+</body>
+</html>
